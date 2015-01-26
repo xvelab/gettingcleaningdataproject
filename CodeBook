@@ -11,8 +11,10 @@ ID	Activity
 
 Variable No. 2 (Column 2): Subject
 This variable contains numbers from 1 to 30; each number is an ID for a volunteer doing the test or train.
- Variable No. 3 (Column 3): Average
+
+Variable No. 3 (Column 3): Average
 This variable contains the average for this variable name (see No. 4); for an activity and a particular volunteer.
+
 Variable No. 4 (Column 4): Variable
 This variable contains the name of the measured variable; there are 561 possible names.
   [1] "tBodyAcc-mean()-X"                    "tBodyAcc-mean()-Y"                   
@@ -296,8 +298,6 @@ This variable contains the name of the measured variable; there are 561 possible
 [557] "angle(tBodyGyroMean,gravityMean)"     "angle(tBodyGyroJerkMean,gravityMean)"
 [559] "angle(X,gravityMean)"                 "angle(Y,gravityMean)"                
 [561] "angle(Z,gravityMean)" 
-
-
 
 Variable No. 5 (Column 5): activity
 This variable contains the activity label:
